@@ -1,0 +1,20 @@
+.InputField{
+    padding: 10px 13px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 20px;
+    //background: rgba(96, 159, 255, 0.12);
+    border-radius: 6px;
+    border: 1px solid #4791FF;
+}
+.InputField:hover{
+    //background: rgba(96, 159, 255, 0.12);
+    border-radius: 6px;
+    border: 1px solid #1673FF;
+}
+
+.InputField:focus-visible{
+    outline: none;
+    border: 1px solid #1673FF;
+}
